@@ -1,0 +1,7 @@
+h3.hello {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(125, 125, 231);
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+}
