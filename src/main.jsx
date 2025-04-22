@@ -65,11 +65,11 @@ function ErrorBoundary() {
 
 const router = createBrowserRouter([
   {
-    path: "/web2025/" ,
+    path: "/web2025/",
     Component: Root,
     ErrorBoundary: ErrorBoundary,
     children: [
-      { index: true, path: "/", Component: App },
+      { index: true, path: "app", Component: App },
       { path: "hello", Component: Hello },
       { path: "clock", Component: Clock },
       { path: "favoriteColor", Component: FavoriteColor },
